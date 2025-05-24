@@ -1,0 +1,196 @@
+{
+    "intents": [
+      {
+        "tag": "signup",
+        "patterns": [
+          "How do I sign up?",
+          "Create an account",
+          "Register"
+        ],
+        "responses": [
+          "To sign up, click on the 'Sign Up' button on the top right and fill in your details.",
+          "You can create a new account by going to the registration page and submitting your information."
+        ]
+      },
+      {
+        "tag": "login",
+        "patterns": [
+          "How do I log in?",
+          "Login to my account",
+          "I can't log in",
+          "Access my account"
+        ],
+        "responses": [
+          "To log in, click on the 'Login' button and enter your email and password.",
+          "Use your credentials on the login page to access your account.",
+          "If you're having trouble logging in, try resetting your password or contact support."
+        ]
+      },
+      {
+        "tag": "otp_issues",
+        "patterns": [
+          "I didn't get the OTP",
+          "OTP not received",
+          "OTP is incorrect",
+          "OTP expired"
+        ],
+        "responses": [
+          "If you didn’t receive the OTP, please check your spam folder or try resending it.",
+          "You can click on 'Resend OTP' to get a new one. Make sure your mobile number or email is correct.",
+          "Incorrect or expired OTP? Try again or request a new one."
+        ]
+      },
+      {
+        "tag": "email_issues",
+        "patterns": [
+          "I didn't get the confirmation email",
+          "Email not coming",
+          "Wrong email address",
+          "Can I change my email?",
+          "Email verification failed"
+        ],
+        "responses": [
+          "Please check your spam or junk folder for the confirmation email.",
+          "You can update your email from your account settings.",
+          "If your email verification failed, try resending the verification link."
+        ]
+      },
+      {
+        "tag": "forgot_password",
+        "patterns": [
+          "I forgot my password",
+          "Reset password",
+          "Can't remember my login",
+          "Password recovery",
+          "Forgot login details"
+        ],
+        "responses": [
+          "Click on 'Forgot Password' on the login page to reset your password.",
+          "You’ll receive an email with instructions to reset your password.",
+          "Still stuck? Contact support for help."
+        ]
+      },
+      {
+        "tag": "captcha_error",
+        "patterns": [
+          "Error while fetching captcha",
+          "Captcha is not loading",
+          "Can't see captcha image",
+          "Captcha not working",
+          "Unable to verify captcha"
+        ],
+        "responses": [
+          "If the captcha isn’t loading, try refreshing the page or check your internet connection.",
+          "Ensure your browser supports captcha images and scripts.",
+          "If the issue persists, clear your browser cache or try a different browser."
+        ]
+      },
+      {
+        "tag": "girl_child_schemes",
+        "patterns": [
+          "Schemes for girl children",
+          "Benefits for girls at birth",
+          "Education schemes for girls",
+          "Support for daughters"
+        ],
+        "responses": [
+          "Beti Bachao Beti Padhao (BBBP): Promotes survival, protection, and education of the girl child.",
+          "Sukanya Samriddhi Yojana (SSY): High-interest savings account for girls under 10, usable for education or marriage after 18.",
+          "Balika Samriddhi Yojana (BSY): ₹500 at birth and annual scholarships up to ₹1,000 for BPL girls.",
+          "Dhanalakshmi Scheme: Conditional cash transfers for birth and education of girls.",
+          "Majhi Kanya Bhagyashree (MH): ₹50,000 for a single girl or ₹25,000 each for two daughters in Maharashtra.",
+          "Mukhyamantri Rajshri Yojana (RJ): Up to ₹50,000 in financial support from birth to graduation."
+        ]
+      },
+      {
+        "tag": "education_schemes",
+        "patterns": [
+          "Scholarships for girls",
+          "Schemes for girl education",
+          "Free study materials for girls",
+          "Financial aid for girl students"
+        ],
+        "responses": [
+          "CBSE Udaan Scheme: Free materials, mentoring, and classes for engineering aspirants in Class 11–12.",
+          "NSIGSE: ₹3,000 fixed deposit for SC/ST girls who pass Class 8 and enroll in Class 9.",
+          "Pragati Scholarship: Up to ₹50,000/year for girls in technical education.",
+          "Ladli Lakshmi Yojana (MP): ₹1 lakh at age 21 if unmarried and passed Class 12."
+        ]
+      },
+      {
+        "tag": "maternity_support",
+        "patterns": [
+          "Maternity benefits",
+          "Pregnancy support schemes",
+          "Help for lactating mothers",
+          "Paid leave for mothers"
+        ],
+        "responses": [
+          "PM Matru Vandana Yojana: ₹5,000 in 3 installments for the first live birth.",
+          "PM Surakshit Matritva Abhiyan: Free antenatal care on the 9th of every month.",
+          "Maternity Leave Act: 26 weeks paid leave for first two children under Maternity Benefit Act, 2017."
+        ]
+      },
+      {
+        "tag": "employment_women",
+        "patterns": [
+          "Employment schemes for women",
+          "Skill training for women",
+          "Start-up help for women",
+          "Legal aid for women"
+        ],
+        "responses": [
+          "Mahila Shakti Kendra: Offers skill development, digital literacy, legal aid at village level.",
+          "STEP Program: Training in agriculture, handicrafts, and hospitality.",
+          "Stand-Up India Scheme: Loans from ₹10 lakh to ₹1 crore for women entrepreneurs.",
+          "Rashtriya Kishori Swasthya Karyakram: Health, hygiene, and nutrition services for girls aged 11–18."
+        ]
+      },
+      {
+        "tag": "apply_scheme_info",
+        "patterns": [
+          "How to apply for schemes?",
+          "Help applying to girl child scheme",
+          "Where to get scheme forms?",
+          "Can I get benefits in Pune?"
+        ],
+        "responses": [
+          "To apply, visit the official government portal or local government offices. For Maharashtra-specific or Pune-based assistance, local municipal bodies or government websites offer detailed instructions.",
+          "If you need help applying to any of the schemes or require state-specific support, let us know your location!"
+        ]
+      },
+      {
+        "tag": "how_JobsForHer_works",
+        "patterns": [
+          "How does JobsForHer work?",
+          "Tell me about the JobsForHer website",
+          "What is JobsForHer platform?",
+          "How can I use JobsForHer for jobs?"
+        ],
+        "responses": [
+          "JobsForHer is India’s largest career platform for women. You can explore job listings, join sessions, participate in skill-building groups, connect with mentors, and access learning resources—all designed to support your career journey."
+        ]
+      },
+      {
+        "tag": "session_recommendations",
+        "patterns": [
+          "Upcoming tech sessions?",
+          "Free courses or workshops?"
+        ],
+        "responses": [
+          "Sure! You can visit the 'Sessions' section on JobsForHer to find webinars on SQL, Power BI, Data Analytics, and more. Also, check out Coursera and edX for free courses curated for women in tech!"
+        ]
+      },
+      {
+        "tag": "job_categories_info",
+        "patterns": [
+          "What job categories are available?",
+          "Types of jobs for women on JobsForHer",
+          "Show me job options for freshers"
+        ],
+        "responses": [
+          "You’ll find jobs for various categories like IT, AI/ML, Data Science, Marketing, Content, HR, Remote Jobs, Internships, Work-From-Home, and jobs for women returning from a career break. Just head to the Jobs section and use the category filters!"
+        ]
+      }      
+    ]
+  }
