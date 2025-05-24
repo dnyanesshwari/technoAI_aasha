@@ -12,7 +12,7 @@ import html
 import bcrypt
 
 # Configure Gemini API
-api_key= st.secrets["gemini_api_key"]
+api_key= "gemini_api_key"
 
 model = genai.GenerativeModel('gemini-2.0-flash')
 
