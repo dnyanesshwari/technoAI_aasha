@@ -12,7 +12,8 @@ import html
 import bcrypt
 
 # Configure Gemini API
-api_key= "gemini_api_key"
+api_key = os.getenv("GOOGLE_API_KEY")   # ye line pakka hona chahiye
+genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel('gemini-2.0-flash')
 
